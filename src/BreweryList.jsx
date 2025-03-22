@@ -28,7 +28,7 @@ const BreweryList = () => {
 
   return (
     <div>
-      <h2 className="py-2 text-lg font-bold">Brewery List</h2>
+      <h2 className="py-2 text-lg font-bold ">Brewery List</h2>
       <input
         type="text"
         placeholder="Search brewery..."
@@ -37,7 +37,7 @@ const BreweryList = () => {
         className="border-1 rounded-lg p-2 my-2"
       />
       {error && <p style={{ color: "red" }}>{error}</p>}
-      <table className="border-collapse border border-gray-400 w-full text-left">
+      <table className="border-collapse border border-gray-400 lg:w-[100%] text-left md:w-[100%] sm:w-[100%]">
         <thead>
           <tr className="bg-gray-200">
             <th className="border border-gray-400 p-2 w-[30%]">Name</th>
